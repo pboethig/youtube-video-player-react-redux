@@ -1,28 +1,22 @@
-# ReduxSimpleStarter
+#Youtube Video Player and Search with React
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+## reprogrammed from udemy.com
+### thx to stepehen grider for this great tutorial
 
-###Getting Started###
+#Prerequisites
+* NPM installed
+* NodeJs installed
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
+#Install
+* clone repo
+* cd into workingdir
+```sh
+npm install
+npm start
 ```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## Change Google API_KEY
+* get you an GOOGLE API_KEY for Youtube API V3
+* open index.js and change the current key to yours
 
-```
-	> npm install
-	> npm start
-```
-# youtube-video-player-react-redux
-# youtube-video-player-react-redux
-# youtube-video-player-react-redux
+### Your app will run on localhost:8080
